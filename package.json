@@ -1,0 +1,19 @@
+{
+  "name": "creative-portfolio",
+  "version": "1.0.0",
+  "description": "High-performance creative portfolio website with modular architecture (GSAP, Lenis, Orbit Carousel)",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "portfolio",
+    "gsap",
+    "lenis",
+    "modular",
+    "creative-developer"
+  ],
+  "author": "",
+  "license": "MIT"
+}
