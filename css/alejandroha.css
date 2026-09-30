@@ -2062,7 +2062,7 @@ blockquote {
   src: url('../fonts/Gravity-Signature.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 /* Transition Screen Clean Name Styling */
@@ -2078,7 +2078,7 @@ blockquote {
   transform-origin: center center;
 }
 .transition__name-text {
-  font-family: 'Gravity Signature', 'Alex Brush', cursive, sans-serif;
+  font-family: 'Gravity Signature', 'Alex Brush', cursive;
   font-size: clamp(4rem, 10vw, 7.5rem);
   font-weight: normal;
   letter-spacing: 0.04em;
@@ -2089,6 +2089,7 @@ blockquote {
   white-space: nowrap;
   text-shadow: 0 0 25px rgba(255, 255, 255, 0.25);
   will-change: clip-path, transform, filter;
+  visibility: hidden;
 }
 
 .hero-bg-wrap img {
